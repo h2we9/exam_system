@@ -1,0 +1,46 @@
+{
+    "version": "1.0.0",
+    "update_url": "https://api.yourserver.com/updates",
+    "auto_update": true,
+    "app": {
+        "name": "نظام توزيع المراقبين",
+        "version": "1.0.0",
+        "debug_mode": false
+    },
+    "database": {
+        "backup_interval_days": 1,
+        "max_backup_files": 30,
+        "auto_backup": true
+    },
+    "email": {
+        "smtp_server": "smtp.gmail.com",
+        "smtp_port": 587,
+        "use_tls": true,
+        "from_email": "",
+        "password": ""
+    },
+    "notifications": {
+        "days_before_exam": 3,
+        "reminder_interval_hours": 24,
+        "notification_types": [
+            "email",
+            "system"
+        ],
+        "quiet_hours": {
+            "start": "22:00",
+            "end": "06:00"
+        }
+    },
+    "ui": {
+        "theme": "light",
+        "language": "ar",
+        "font_size": "medium",
+        "show_tooltips": true
+    },
+    "security": {
+        "session_timeout_minutes": 30,
+        "max_login_attempts": 5,
+        "password_expiry_days": 90
+    },
+    "school_logo": "C:/Users/yyouu/OneDrive/Desktop/New folder (2)/42496school_99040.ico"
+}
